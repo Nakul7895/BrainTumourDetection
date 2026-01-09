@@ -1,0 +1,96 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+.env/
+.env.*
+
+# ===============================
+# PyTorch / Model Files
+# ===============================
+*.pt
+*.pth
+*.onnx
+models/**/checkpoints/
+models/**/runs/
+
+# (OPTIONAL)
+# If you want to track trained model, comment the line below
+# models/classification/brain_tumor_model.pth
+
+# ===============================
+# Data (Large / Sensitive)
+# ===============================
+data/raw/
+data/processed/
+*.nii
+*.nii.gz
+*.zip
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+.streamlit/secrets.toml
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+*.code-workspace
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs & Cache
+# ===============================
+logs/
+*.log
+.cache/
+torch_cache/
+
+# ===============================
+# Temporary Files
+# ===============================
+tmp/
+temp/
+*.tmp
+
+# ===============================
+# Testing / Coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Misc
+# ===============================
+*.bak
+*.swp
