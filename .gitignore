@@ -17,8 +17,7 @@ venv/
 # ===============================
 # PyTorch / Model Files
 # ===============================
-*.pt
-*.pth
+
 *.onnx
 models/**/checkpoints/
 models/**/runs/
